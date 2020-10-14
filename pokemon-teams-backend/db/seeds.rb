@@ -1,8 +1,8 @@
 require 'faker'
 require 'securerandom'
 
-Trainer.delete_all
 Pokemon.delete_all
+Trainer.delete_all
 
 trainers_name = [
   'Natalie',
